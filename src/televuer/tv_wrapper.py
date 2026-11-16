@@ -114,7 +114,8 @@ def transform_IPunitree_Brobot_world_arm_to_head_then_waist(IPunitree_Brobot_wor
 
     # Translate the origin of IPunitree_Brobot_head_arm from HEAD to WAIST.
     IPunitree_Brobot_waist_arm = IPunitree_Brobot_head_arm.copy()
-    IPunitree_Brobot_waist_arm[0, 3] += 0.15
+    # IPunitree_Brobot_waist_arm[0, 3] += 0.15
+    IPunitree_Brobot_waist_arm[0, 3] += 0.0
     IPunitree_Brobot_waist_arm[2, 3] += 0.45
     return IPunitree_Brobot_waist_arm
 
